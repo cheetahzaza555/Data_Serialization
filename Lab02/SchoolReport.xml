@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding= "UTF-8" standalone="yes" ?>
+<SchoolReport>
+    <Term term="Summer 2024">
+        <Student StudentName="Apichai Tinjong" ID="12345">
+            <Subjects>
+                <Subject SubjectName="Math">
+                    <Scores>
+                        <Score Type="Quiz" score="85"></Score>
+                        <Score Type="Exam" score="92"></Score>
+                    </Scores>
+                </Subject>
+                <Subject SubjectName="Science">
+                    <Scores>
+                        <Score Type="Assignment" score="78"></Score>
+                        <Score Type="Project" score="90"></Score>
+                    </Scores>
+                </Subject>
+            </Subjects>
+        </Student>
+    </Term>
+</SchoolReport>
