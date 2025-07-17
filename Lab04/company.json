@@ -1,0 +1,35 @@
+{"compaynies":
+    [ 
+        {
+            "CompantName":"Sun Star",
+            "EmployeeCount":10000,
+            "CEO":"May Jane",
+            "Address":{
+                "NO":124,
+                "Road":"Robinson",
+                "State":"NY",
+                "Postcode":"85444",
+                "MapLocation":{
+                    "Latitude":"40.7128",
+                    "Longtitude":"-74.0060"
+                    }
+                }
+        },
+        {
+            "CompantName":"NTC",
+            "EmployeeCount":25000,
+            "CEO":"William Lee",
+            "Address":{
+                "NO":256,
+                "Road":"Landy",
+                "State":"WA",
+                "Postcode":"65222",
+                "MapLocation":{
+                    "Latitude":"47.7511",
+                    "Longtitude":"-120.7401"
+                }
+            }
+        }
+        
+    ]
+}
