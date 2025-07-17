@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movieDatabase>
+  <movie>
+    <title>Inception</title>
+    <genre>Action, Adventure, Sci-Fi</genre>
+    <year>2010</year>
+    <director>Christopher Nolan</director>
+    <cast>
+      <actor>Leonardo DiCaprio</actor>
+      <actor>Joseph Gordon-Levitt</actor>
+      <actor>Ellen Page</actor>
+    </cast>
+    <duration>148</duration>
+  </movie>
+
+  <movie>
+    <title>Interstellar</title>
+    <genre>Adventure, Drama, Sci-Fi</genre>
+    <year>2014</year>
+    <director>Christopher Nolan</director>
+    <cast>
+      <actor>Matthew McConaughey</actor>
+      <actor>Anne Hathaway</actor>
+      <actor>Jessica Chastain</actor>
+    </cast>
+    <duration>169</duration>
+  </movie>
+
+   <movie>
+    <title>Knives Out</title>
+    <genre>Mystery, Crime, Comedy</genre>
+    <year>2019</year>
+    <director>Rian Johnson</director>
+    <cast>
+      <actor>Daniel Craig</actor>
+      <actor>Ana de Armas</actor>
+      <actor>Chris Evans</actor>
+    </cast>
+    <duration>130</duration>
+  </movie>
+</movieDatabase>
+
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script event="onload">
+        var text = "<customers>" +
+                        "<customer id='C2890'>" +
+                            "<name>John Wilkey</name>" +
+                            "<address>" +
+                                "<street>89 Mohawk Lane</street>" +
+                                "<city>Madison</city>" +
+                                "<state>KY</state>" +
+                            "</address>" +
+                        "</customer>" +
+                        "<customer id='C28902'>" +
+                            "<name>Billy Mac</name>" +
+                             "<address>" +
+                                "<street>2424 School Street</street>" +
+                                "<city>Banheim</city>" +
+                                 "<state>ME</state>" +
+                            "</address>" +
+                        "</customer>" +
+                    "</customers>";
+        var parser = new DOMParser()
+        var xmlDoc = parser.parseFromString(text, "text/xml")
+        const customers = xmlDoc.getElementsByTagName("customer");
+
+        for (let i = 0; i < customers.length; i++) {
+            
+
+        if (customers[i].getAttribute("id") === "C2890") {
+            const name = customers[i].getElementsByTagName("name")[0].textContent;
+            const state = customers[i].getElementsByTagName("state")[0].textContent;
+            alert("Name: " + name + "\nState: " + state);
+        }
+
+        if (customers[i].getAttribute("id") === "C28902") {
+            const name = customers[i].getElementsByTagName("name")[0].textContent;
+            const state = customers[i].getElementsByTagName("state")[0].textContent;
+            const street = customers[i].getElementsByTagName("street")[0].textContent;
+            const city = customers[i].getElementsByTagName("city")[0].textContent;
+            alert("Name: " + name + "\nstreet:"+ street + "\nCity:"+city+"\nState: " + state);
+            break;
+        }
+        }
+    </script>
+</body>
+
+</html>
